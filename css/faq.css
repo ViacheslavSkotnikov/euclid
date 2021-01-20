@@ -1,0 +1,275 @@
+/* 1920 */
+
+.faq {
+  margin-bottom: 110px;
+}
+
+.faq__list {
+  margin-top: 38px;
+}
+
+.faq__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0px;
+  font-weight: 700;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid var(--border-color);
+  position: relative;
+  margin-top: -1px;
+}
+
+.faq-title {
+  margin-bottom: 35px;
+}
+
+.faq__item-content {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.faq__item:hover .faq__item-content {
+  color: var(--primary-color);
+}
+
+.faq__item-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../img/x.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.icon-active {
+  transform: rotate(45deg);
+}
+
+/* 1024 */
+
+@media (max-width: 1024px) {
+  .faq {
+    margin-bottom: 69px;
+  }
+
+  .faq__item-content {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .acc-header {
+    font-size: 20px !important;
+  }
+
+  .faq__list {
+    margin-top: 37px;
+  }
+
+  .faq__item {
+    align-items: unset;
+  }
+
+  .faq__item:nth-child(1) {
+    padding-top: 48px;
+    padding-bottom: 44px;
+  }
+
+  .faq__item:nth-child(2) {
+    padding-top: 10px;
+    padding-bottom: 31px;
+  }
+
+  .faq__item:nth-child(4) {
+    padding-top: 20px;
+    padding-bottom: 31px;
+  }
+
+  .faq__item-content-2 {
+    width: 100%;
+  }
+}
+
+/* 768 */
+
+@media (max-width: 768px) {
+  .faq-title {
+    letter-spacing: -0.025em;
+    text-align: center;
+  }
+
+  .acc-header {
+    font-size: 20px !important;
+    max-width: 90% !important;
+  }
+
+  .faq__item-content {
+    width: 100%;
+  }
+
+  .faq__item {
+    align-items: center;
+  }
+
+  .faq__item:nth-child(1) {
+    padding-top: 33px;
+    padding-bottom: 29px;
+  }
+
+  .faq__item:nth-child(2) {
+    padding-top: 22px;
+    padding-bottom: 31px;
+  }
+
+  .faq__item:nth-child(3) {
+    padding-top: 22px;
+    padding-bottom: 31px;
+  }
+
+  .faq__item:nth-child(4) {
+    padding-top: 20px;
+    padding-bottom: 31px;
+  }
+
+  .faq__item:nth-child(5) {
+    padding-top: 20px;
+    padding-bottom: 31px;
+  }
+}
+
+/* 375 */
+
+@media (max-width: 375px) {
+  .faq {
+    margin-bottom: 40px;
+  }
+
+  .faq-title {
+    margin-bottom: 14px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: unset;
+    letter-spacing: 0;
+  }
+
+  .acc-header {
+    font-size: 14px !important;
+    max-width: 80% !important;
+  }
+
+  .faq__item-content {
+    padding: 0;
+    width: 78%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .faq__list {
+    margin-top: 0px;
+  }
+
+  .faq__item:nth-child(1) {
+    padding-top: 20px;
+    padding-bottom: 24px;
+  }
+
+  .faq__item:nth-child(2) {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  .faq__item:nth-child(3) {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  .faq__item:nth-child(4) {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  .faq__item:nth-child(5) {
+    padding-top: 20px;
+    padding-bottom: 23px;
+  }
+
+  .faq__item {
+    padding: 20px 0px;
+  }
+}
+
+/* 320 */
+
+@media (max-width: 320px) {
+  .faq {
+    margin-bottom: 40px;
+  }
+
+  .faq-title {
+    margin-bottom: 14px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: unset;
+    letter-spacing: 0;
+  }
+
+  .acc-header {
+    font-size: 14px !important;
+    max-width: 80% !important;
+  }
+
+  .faq__item-content {
+    padding: 0;
+    width: 78%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .faq__list {
+    margin-top: 0px;
+  }
+
+  .faq__item:nth-child(1) {
+    padding-top: 20px;
+    padding-bottom: 24px;
+  }
+
+  .faq__item:nth-child(2) {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  .faq__item:nth-child(3) {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  .faq__item:nth-child(4) {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  .faq__item:nth-child(5) {
+    padding-top: 20px;
+    padding-bottom: 23px;
+  }
+
+  .faq__item {
+    padding: 20px 0px;
+  }
+
+  .faq__item-icon {
+    width: 30px;
+    height: 30px;
+    transition-duration: 0.1s;
+  }
+}

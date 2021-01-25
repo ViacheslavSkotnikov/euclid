@@ -17,6 +17,14 @@
 
 /* General styles */
 
+html {
+  --primary-color: #ff9900;
+  --secondary-color: #fff;
+  --text-color: #333333;
+  --background-color: #e5e5e5;
+  --border-color: #cacaca;
+}
+
 * {
   margin: 0;
   padding: 0;

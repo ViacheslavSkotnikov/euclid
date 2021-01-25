@@ -68,7 +68,7 @@
 .nav__link {
   position: relative;
   padding-bottom: 10px;
-  color: var(--text-color);
+  color: #333;
   font-weight: 600;
   font-size: 18px;
 }
@@ -260,7 +260,7 @@
 
 /* Iphone 6s 375px  */
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   html,
   body {
     max-width: 100%;

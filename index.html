@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Евклид</title>
+  <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.css">
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -37,8 +38,8 @@
               <a href="" class="nav__link">Контакты</a>
             </li>
           </ul>
-          <button class="nav__button"><span class="nav__span"></span></button>
-          <button id="burger" class="burger">
+          <button aria-label="Поиск" class="nav__button"><span class="nav__span"></span></button>
+          <button aria-label="Меню" id="burger" class="burger">
             <span id="burger-logo" class="burger__logo"></span>
           </button>
         </nav>
@@ -50,7 +51,7 @@
           <div class="hero-info">
             <h1 class="site__title">Проектные решения любой сложности</h1>
             <p class="hero-info__description">Есть над чем задуматься: базовые сценарии поведения&nbsp; пользователей и по сей день остаются уделом проектантов</p>
-            <button class="hero-info__btn">Заказать расчет</button>
+            <button aria-label="Заказать расчет" class="hero-info__btn">Заказать расчет</button>
           </div>
           
           <div class="swiper-wrapper">
@@ -72,7 +73,7 @@
             <div class="info-left">
               <div class="info-left__description">
                 <p class="info-left__text">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.</p>
-                <button class="info-left__btn">Подробнее</button>
+                <button aria-label="Подробнее" class="info-left__btn">Подробнее</button>
               </div>
             </div>
             <ul class="info-right">
@@ -102,16 +103,16 @@
           <h2 class="section-title work-title">Как мы работаем</h2>
           <ul class="work__list">
             <li class="work__list-item">
-              <button class="work__list-link first-link" data-path="one">1 шаг</button>
+              <button aria-label="Первый шаг" class="work__list-link first-link" data-path="one">1 шаг</button>
             </li>
             <li class="work__list-item">
-              <button class="work__list-link" data-path="two">2 шаг</button>
+              <button aria-label="Второй шаг" class="work__list-link" data-path="two">2 шаг</button>
             </li>
             <li class="work__list-item">
-              <button class="work__list-link" data-path="three">3 шаг</button>
+              <button aria-label="Третий шаг" class="work__list-link" data-path="three">3 шаг</button>
             </li>
             <li class="work__list-item">
-              <button class="work__list-link" data-path="four">4 шаг</button>
+              <button aria-label="Четвертый шаг" class="work__list-link" data-path="four">4 шаг</button>
             </li>
           </ul>
           <div class="work__content work__content-active" data-target="one">
@@ -119,12 +120,12 @@
               <h3 class="sub-header work__header">Проводим консультацию</h3>
               <p class="work__content-descr">Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати,  стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.</p>
               <div class="work__content-buttons">
-                <button class="work__content-btn1">Подробнее</button>
-                <button class="work__content-btn2">Договор</button>
+                <button aria-label="Подробнее" class="work__content-btn1">Подробнее</button>
+                <button aria-label="Договор" class="work__content-btn2">Договор</button>
               </div>
             </div>
             <div class="work__content-right">
-              <img src="img/Rectangle18.jpg" alt="">
+              <img class="work-content-img" src="img/Rectangle18.jpg" alt="">
             </div>
           </div>
           <div class="work__content" data-target="two">
@@ -132,12 +133,12 @@
               <h3 class="sub-header work__header">Составляем смету</h3>
               <p class="work__content-descr">Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований.</p>
               <div class="work__content-buttons">
-                <button class="work__content-btn1">Подробнее</button>
-                <button class="work__content-btn2">Договор</button>
+                <button aria-label="Подробнее" class="work__content-btn1">Подробнее</button>
+                <button aria-label="Договор" class="work__content-btn2">Договор</button>
               </div>
             </div>
             <div class="work__content-right">
-              <img src="img/Rectangle19.png" alt="">
+              <img class="work-content-img" src="img/Rectangle19.png" alt="">
             </div>
           </div>  
           <div class="work__content" data-target="three">
@@ -145,12 +146,12 @@
               <h3 class="sub-header work__header">Привлекаем подрядчиков</h3>
               <p class="work__content-descr">Идейные соображения высшего порядка, а также новая модель организационной деятельности требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнить важные задания по разработке прогресса профессионального сообщества.</p>
               <div class="work__content-buttons">
-                <button class="work__content-btn1">Подробнее</button>
-                <button class="work__content-btn2">Договор</button>
+                <button aria-label="Подробнее" class="work__content-btn1">Подробнее</button>
+                <button aria-label="Договор" class="work__content-btn2">Договор</button>
               </div>
             </div>
             <div class="work__content-right">
-              <img src="img/Rectangle20.png" alt="">
+              <img class="work-content-img" src="img/Rectangle20.png" alt="">
             </div>
           </div>  
           <div class="work__content" data-target="four">
@@ -158,12 +159,12 @@
               <h3 class="sub-header work__header">Инспектируем все этапы работ</h3>
               <p class="work__content-descr">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет.</p>
               <div class="work__content-buttons">
-                <button class="work__content-btn1">Подробнее</button>
-                <button class="work__content-btn2">Договор</button>
+                <button aria-label="Подробнее" class="work__content-btn1">Подробнее</button>
+                <button aria-label="Договор" class="work__content-btn2">Договор</button>
               </div>
             </div>
             <div class="work__content-right">
-              <img src="img/Rectangle21.png" alt="">
+              <img class="work-content-img" src="img/Rectangle21.png" alt="">
             </div>
           </div>
         </div>
@@ -174,7 +175,7 @@
         <div class="container">
           <h2 class="section-title faq-title">Часто задаваемые вопросы</h2>
           <div id="accordion">
-            <div class="acc-item">
+            <div tabindex="0" class="acc-item">
               <h3 class="acc-header">Из чего формируется конечная стоимость проекта?</h3>
               <span class="faq__item-icon"></span>
             </div>
@@ -182,21 +183,21 @@
               <p class="acc-descr">Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный прототип будущего проекта является качественно новой ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные признаки победы институционализации призывают нас к новым свершениям, которые, в свою очередь, должны быть указаны как претенденты на роль ключевых факторов.<br><br>
               Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу. Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а значит, должны быть объединены в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно положительном свете. </p>
             </div>
-            <div class="acc-item">
+            <div tabindex="1" class="acc-item">
               <h3 class="acc-header">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</h3>
               <span class="faq__item-icon"></span>
             </div>
             <div>
               <p class="acc-descr">Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
             </div>
-            <div class="acc-item">
+            <div tabindex="2" class="acc-item">
               <h3 class="acc-header">Я выбираю между разными компаниями. В чём ваше отличие?</h3>
               <span class="faq__item-icon"></span>
             </div>
             <div>
               <p class="acc-descr">Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
             </div>
-            <div class="acc-item">
+            <div tabindex="3" class="acc-item">
               <h3 class="acc-header">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией? </h3>
               <span class="faq__item-icon"></span>
             </div>
@@ -250,24 +251,39 @@
             </ul>           
             <ul class="footer__social">
               <li class="footer__social-item">
-                <a href="#" class="footer__social-icon fb"></a>
+                <a aria-label="facebook" href="#" class="footer__social-icon fb" title="facebook"></a>
               </li>
               <li class="footer__social-item">
-                <a href="#" class="footer__social-icon vk"></a>
+                <a aria-label="vkontakte" href="#" class="footer__social-icon vk" title="vkontakte"></a>
               </li>
               <li class="footer__social-item">
-                <a href="#" class="footer__social-icon insta"></a>
+                <a aria-label="instagram" href="#" class="footer__social-icon insta" title="instagram"></a>
               </li>
             </ul>
           </div>
           <div class="footer__center">
             <h2 class="footer-title">Оставить заявку</h2>
             <form action="#" class="form">
-              <input required type="text" name="name" placeholder="Фамилия, имя и отчество*" class="form__item">
-              <input required type="email" name="email" placeholder="E-mail*" class="form__item">
-              <textarea name="message" rows="8" placeholder="Сообщение" class="form__item form-textarea"></textarea>
+              <label>
+                <span class="visually-hidden">
+                  Введите имя
+                </span>
+                <input required type="text" name="name" placeholder="Фамилия, имя и отчество*" class="form__item">
+              </label>
+              <label>
+                <span class="visually-hidden">
+                  Введите почту
+                </span>
+                <input required type="email" name="email" placeholder="E-mail*" class="form__item">
+              </label>
+              <label>
+                <span class="visually-hidden">
+                  Введите сообщение
+                </span>
+                <textarea name="message" rows="8" placeholder="Сообщение" class="form__item form-textarea"></textarea>
+              </label>
               <div class="form__bottom">
-                <button type="submit" class="form__btn">Отправить данные</button>
+                <button aria-label="Отправить данные" type="submit" class="form__btn">Отправить данные</button>
                 <div class="form__checkbox">
                   <input type="checkbox" id="check" class="form__checkbox-input">
                   <label for="check" class="form__checkbox-text">Согласен на обработку данных</label> 

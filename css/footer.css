@@ -4,6 +4,11 @@
   background-color: #222;
 }
 
+.visually-hidden {
+  visibility: hidden;
+  font-size: 1px;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -20,7 +25,7 @@
 }
 
 .footer-link {
-  color: var(--border-color);
+  color: #cacaca;
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
@@ -82,7 +87,7 @@
   font-weight: 400;
   font-size: 48px;
   line-height: 59px;
-  color: var(--border-color);
+  color: #cacaca;
 }
 
 .form {
@@ -95,6 +100,8 @@
   margin-bottom: 25px;
   border: none;
   background-color: #414141;
+  width: 100%;
+  color: #ffffff;
 }
 
 .form-textarea {
@@ -108,7 +115,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
-  color: var(--border-color);
+  color: #cacaca;
 }
 
 .form__bottom {
@@ -122,8 +129,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
+  color: #fff;
+  background-color: #ff9900;
 }
 
 .form__btn:hover {
@@ -166,7 +173,7 @@
   align-items: center;
   font-weight: 400;
   font-size: 16px;
-  color: var(--border-color);
+  color: #cacaca;
   cursor: pointer;
 }
 
@@ -185,7 +192,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  color: var(--border-color);
+  color: #cacaca;
 }
 
 /* 1024 */

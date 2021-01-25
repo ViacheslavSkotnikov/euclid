@@ -33,6 +33,16 @@
   }
 }
 
+/* 414 */
+
+@media (max-width: 414px) {
+  .swiper-container {
+    max-width: 385px !important;
+    height: 262px;
+    position: relative;
+  }
+}
+
 /* 375 */
 
 @media (max-width: 375px) {

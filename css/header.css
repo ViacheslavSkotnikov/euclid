@@ -299,6 +299,118 @@
   }
 }
 
+/* IphoneX 414px  */
+
+@media (max-width: 414px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .container {
+    max-width: 385px !important;
+  }
+
+  .nav__button {
+    display: none;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: absolute;
+    padding: 66px 40px 80px 61px;
+    -webkit-box-align: unset;
+    -ms-flex-align: unset;
+    align-items: unset;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 307px;
+    background-color: #fff;
+    z-index: 5;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translateX(120%);
+    -ms-transform: translateX(120%);
+    transform: translateX(120%);
+  }
+
+  .is-active {
+    transform: none;
+  }
+
+  .burger {
+    display: block;
+    z-index: 10;
+  }
+
+  .burger-active {
+    z-index: 10;
+  }
+
+  .nav-item-active {
+    margin-bottom: 10px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .nav-link-active {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .burger__logo {
+    display: inline-block;
+    width: 30px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(/img/Burger.svg);
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .burger-logo-active {
+    background-image: url(/img/X320.png);
+    transform: rotate(90deg);
+  }
+
+  .header__logo {
+    width: 97px;
+    height: 31px;
+    background-image: url(../img/euclid-small.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    order: 1;
+  }
+
+  .burger {
+    order: 2;
+  }
+
+  .header__container {
+    padding: 7px 0;
+  }
+}
+
 /* Iphone 6s 375px  */
 
 @media (max-width: 376px) {

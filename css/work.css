@@ -49,9 +49,6 @@
 .work__content-right {
   padding-top: 10px;
   width: 50%;
-  /* background: url(../img/Rectangle18.jpg) no-repeat;
-  background-size: contain;
-  background-position: center; */
 }
 
 .work__content-active {
@@ -132,9 +129,6 @@
 
   .work__content-right {
     width: 50%;
-    /* background: url(../img/Rectangle18.jpg) no-repeat;
-    background-size: cover;
-    background-position: center; */
   }
 
   .work__content-descr {
@@ -197,6 +191,78 @@
   }
 }
 
+/* 414 */
+
+@media (max-width: 414px) {
+  /* Work */
+
+  .work {
+    margin-bottom: 39px;
+  }
+
+  .work__content {
+    display: none;
+  }
+
+  .work__content-active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .work-title {
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: unset;
+  }
+
+  .work__list {
+    margin-bottom: 19px;
+  }
+
+  .work__list-link {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+  .work__content-right {
+    width: 100%;
+    height: 200px;
+  }
+
+  .work__content-descr {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .work__content-left {
+    margin-top: 0px;
+  }
+
+  .work__content-btn1 {
+    padding: 12px 44px;
+    margin-right: 7px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+  }
+
+  .work__content-btn2 {
+    padding: 12px 30px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+  }
+}
+
 /* 375 */
 
 @media (max-width: 375px) {
@@ -237,9 +303,6 @@
   .work__content-right {
     width: 100%;
     height: 200px;
-    /* background: url(../img/Rectangle18.jpg) no-repeat;
-    background-size: contain;
-    background-position: top; */
   }
 
   .work__content-descr {
@@ -312,9 +375,6 @@
   .work__content-right {
     width: 100%;
     height: 170px;
-    /* background: url(../img/Rectangle18.jpg) no-repeat;
-    background-size: contain;
-    background-position: top; */
   }
 
   .work__content-descr {
